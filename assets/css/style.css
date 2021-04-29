@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*Replaced the header class with a header tag*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -85,7 +85,7 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*Consolidated CSS selectors*/
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
@@ -119,7 +119,7 @@ article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Replaced the footer class with a footer tag*/
 footer {
     padding: 30px;
     clear: both;
