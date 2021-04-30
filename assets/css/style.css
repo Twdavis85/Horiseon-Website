@@ -20,7 +20,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 .seo {     
     color: #d9dcd6;
 }
 
@@ -68,11 +68,29 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*Consolidated and organized CSS selectors*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+.services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+main img {
+    max-height: 200px;
+}
+
+main h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 aside {
@@ -85,40 +103,23 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*Consolidated CSS selectors*/
+
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-section h3 {
+aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-section img {
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.services {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-article img {
-    max-height: 200px;
-}
-
-article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 /*Replaced the footer class with a footer tag*/
 footer {
     padding: 30px;
