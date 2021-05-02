@@ -4,7 +4,8 @@
 For this assignment I was given the task of updating the Horiseon webpage so that it meets accessibility standards.
 
 ## Installation
-* Changed class="header" to a header tag
+* Added a title
+* changed class="header" to a header tag
 * changes the div tag in header to a nav tag
 * added id="search-engine-optimization" to line 31 to make the nav feature work for all images
 * added alt tags to all the images to increase accessibility
